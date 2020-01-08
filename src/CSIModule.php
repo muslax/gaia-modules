@@ -20,9 +20,9 @@ use Gaia\Behavioral\Evidence;
  *
  * @author Arif Muslax <muslax@gmail.com>
  */
-class GPQModule extends Module
+class CSIModule extends Module
 {
-    protected int $type = GB::GB_MOD_GPQ;
+    protected int $type = GB::GB_MOD_CSI;
     
     public function score(Evidence $evidence) : array
     {
