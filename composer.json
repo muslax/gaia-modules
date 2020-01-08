@@ -1,5 +1,24 @@
 {
+    "name": "muslax/gaia-modules",
+    "description": "Gaia Behavioral Modules",
+    "type": "library",
+    "homepage": "http://strenan.net",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arif Muslax",
+            "email": "muslax@gmail.com"
+        }
+    ],
     "require": {
-        "muslax/gaia-behavioral": "^0.2.0"
+        "php": ">=7.4",
+		"muslax/gaia-behavioral": "^0.2.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Gaia\\Behavioral\\Modules\\": "src/"
+        }
     }
 }
